@@ -1,0 +1,7 @@
+# The readable engine is over the 4 KB file cap, so only the packed main.py belongs in this entry; Python caches and build leftovers would also count toward the 8 KB repo limit.
+# Git tracks main.py alone as the contest entrypoint; the grader runs that packed file.
+engine.py
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
